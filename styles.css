@@ -2,5 +2,22 @@
 * {
     padding: 0;
     margin: 0;
+    border: solid black 1px;
+}
+body{
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: "side main main main main main";
+}
+.sidebar {
+    grid-area: side;
+    display: grid;
+}
+.mainpanel {
+    grid-area: main;
+    display: grid;
+}
