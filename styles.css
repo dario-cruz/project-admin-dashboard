@@ -4,8 +4,6 @@
     margin: 0;
     border: solid black 1px;
 }
-body{
-}
 
 .container {
     display: grid;
@@ -19,5 +17,10 @@ body{
 }
 .mainpanel {
     grid-area: main;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr;
+}
+.mainpanel .maintop {
     display: grid;
 }
