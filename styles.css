@@ -14,13 +14,19 @@
 .sidebar {
     grid-area: side;
     display: grid;
+    background-color: #420f69;
 }
 .mainpanel {
     grid-area: main;
     display: grid;
     grid-template-rows: 1fr 6fr;
     grid-template-columns: 1fr;
+    background-color: #1f2937;
 }
-.mainpanel .maintop {
+.mainpanel .main-top {
+    display: grid;
+    background-color: #111827;
+}
+.mainpanel .main-bottom {
     display: grid;
 }
