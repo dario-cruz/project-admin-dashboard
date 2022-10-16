@@ -50,6 +50,7 @@
 }
 .projects p {
     grid-column: 1/3;
+    color: white;
     font-family: 'Oswald', sans-serif;
 }
 .projects .card {
@@ -68,8 +69,11 @@
     margin-top: 10px;
     margin-right: 10px;
     display: grid;
+    grid-template-rows: 1fr 9fr;
+    grid-template-columns: 1fr;
 }
 .announcements p {
+    color: white;
     font-family: 'Oswald', sans-serif;
 }
 .announcements .card {
@@ -77,13 +81,14 @@
 }
 .main-bottom .trending {
     grid-area: right-b;
-    margin-right: 10px;
-    margin-bottom: 10px;
     display: grid;
+    grid-template-rows: 1fr 9fr;
+    grid-template-columns: 1fr;
 }
 .trending .card {
     background-color: #cbcdd3;
 }
 .trending p {
+    color: white;
     font-family: 'Oswald', sans-serif;
 }
