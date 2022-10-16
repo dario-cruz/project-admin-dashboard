@@ -14,14 +14,14 @@
 .sidebar {
     grid-area: side;
     display: grid;
-    background-color: #420f69;
+    background-color: #25083b;
 }
 .mainpanel {
     grid-area: main;
     display: grid;
     grid-template-rows: 1fr 6fr;
     grid-template-columns: 1fr;
-    background-color: #1f2937;
+    background-color: #28313d;
 }
 .mainpanel .main-top {
     display: grid;
@@ -49,6 +49,18 @@
 }
 .projects p {
     grid-column: 1/3;
+    font-family: 'Oswald', sans-serif;
+}
+.projects .card {
+    background-color: #cbcdd3;
+    border-left: solid #460d72 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(65, 62, 62);
+    padding: 1em;
+}
+.card h1 {
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
 }
 .main-bottom .announcements {
     grid-area: right-t;
