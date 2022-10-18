@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .container {
@@ -77,6 +77,10 @@
 }
 .announcements .card {
     background-color: #cbcdd3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(24, 22, 22);
+
+
 }
 .main-bottom .trending {
     grid-area: right-b;
@@ -88,6 +92,9 @@
 }
 .trending .card {
     background-color: #cbcdd3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(24, 22, 22);
+    
 }
 .trending p {
     color: white;
