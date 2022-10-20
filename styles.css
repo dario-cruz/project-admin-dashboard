@@ -16,13 +16,14 @@
     display: grid;
     background-color: white;
     border-right: 2px solid black;
+    grid-template-rows: 120px 400px 5vh 300px 1fr;
 }
 .mainpanel {
     grid-area: main;
     display: grid;
     grid-template-rows: 140px 6fr;
     grid-template-columns: 1fr;
-    background-color: #white;
+    background-color: white;
 }
 .mainpanel .main-top {
     display: grid;
