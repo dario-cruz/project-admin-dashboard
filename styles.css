@@ -17,17 +17,18 @@
     background-color: white;
     border-right: 2px solid black;
     grid-template-rows: 140px 400px 5vh 300px 1fr;
+    background-color: #ffb3ba;
 }
+
+/* Sidebar Panels */
 .sidebar .paneltop {
     font-family: 'DM Serif Display', serif;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid black;
-    background-color: #BAFFC9;
+    background-color: #bae1ff;
 }
-
-/* Sidebar Pannels */
 .panelone {
     font-family: 'DM Serif Display', serif;
     font-size: x-large;
@@ -41,19 +42,12 @@
 }
 
 /* Icons and Text for Sidebar */
-.panelone > div {
+.panelone > div, .paneltwo > div {
     display: grid;
     grid-template-columns: 1.5fr 2.5fr;
     align-items: center;
 }
-.paneltwo > div {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-.panelone > div > img {
+.panelone > div > img, .paneltwo > div > img {
     width: 35px;
     height: 35px;
     margin-left: auto;
