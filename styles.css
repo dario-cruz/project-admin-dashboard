@@ -17,7 +17,7 @@
     background-color: white;
     border-right: 2px solid black;
     grid-template-rows: 140px 400px 5vh 300px 1fr;
-    background-color: #ffb3ba;
+    background-color: antiquewhite;
 }
 
 /* Sidebar Panels */
@@ -33,6 +33,7 @@
     font-family: 'DM Serif Display', serif;
     font-size: x-large;
     display: grid;
+    border-bottom: 2px solid black;
 }
 .paneltwo {
     font-family: 'DM Serif Display', serif;
