@@ -5,12 +5,15 @@
     /* border: solid black 1px; */
 }
 
+/* Main Grid Container */
 .container {
     display: grid;
     grid-template-columns: minmax(150px, 300px) 5fr;
     grid-template-rows: 100vh;
     grid-template-areas: "side main main main main main";
 }
+
+/* Sidebar */
 .sidebar {
     grid-area: side;
     display: grid;
@@ -63,6 +66,7 @@
     background-color: white;
 }
 
+/* Top Panel */
 .mainpanel .main-top {
     display: grid;
     background-color: antiquewhite;
@@ -86,6 +90,7 @@
 }
 .main-top button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
     background-color: white;
     border: 2px solid black;
     width: 80px;
@@ -101,10 +106,26 @@
 }
 .searchbar input {
     border: 2px solid black;
-    width: 30vw;
+    margin-left: 8px;
+    width: 35vw;
     height: 30px;
 }
+.searchbar img {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+.whoami {
+    font-size: medium;
+    display: flex;
+    font-family: 'DM Serif Display', serif;
+    grid-row: 1;
+    grid-column: 8/9;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Bottom Panel */
 .mainpanel .main-bottom {
     display: grid;
     grid-template-columns: 70% 30%;
