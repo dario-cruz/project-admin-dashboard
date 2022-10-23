@@ -38,22 +38,22 @@
 }
 .panelone {
     font-family: 'DM Serif Display', serif;
-    font-size: x-large;
+    font-size: larger;
     display: grid;
     border-bottom: 2px solid black;
 }
 .paneltwo {
     font-family: 'DM Serif Display', serif;
-    font-size: x-large;
+    font-size: larger;
     display: grid;
     grid-row: 3/4;
     border-bottom: 2px solid black;
 }
-
 /* Icons and Text for Sidebar */
 .panelone > div, .paneltwo > div {
     display: grid;
     grid-template-columns: 1.5fr 2.5fr;
+    gap: 10px;
     align-items: center;
 }
 .panelone > div > img, .paneltwo > div > img {
