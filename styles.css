@@ -196,6 +196,11 @@
     font-weight: 200;
     background-color: antiquewhite;
 }
+.card > p {
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .main-bottom .announcements {
     grid-area: right-t;
     margin-right: 10px;
