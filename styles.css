@@ -9,7 +9,7 @@
 .container {
     display: grid;
     grid-template-columns: minmax(150px, 300px) 5fr;
-    grid-template-rows: 100vh;
+    grid-template-rows: 1300px;
     grid-template-areas: "side main main main main main";
 }
 
@@ -19,7 +19,7 @@
     display: grid;
     background-color: white;
     border-right: 2px solid black;
-    grid-template-rows: 140px 400px 5vh 300px 1fr;
+    grid-template-rows: 140px 400px 200px 1fr;
     background-color: antiquewhite;
 }
 
@@ -46,7 +46,8 @@
     font-family: 'DM Serif Display', serif;
     font-size: x-large;
     display: grid;
-    grid-row: 4/5;
+    grid-row: 3/4;
+    border-bottom: 2px solid black;
 }
 
 /* Icons and Text for Sidebar */
@@ -86,12 +87,6 @@
     justify-content: space-around;
     align-items: center;
 }
-.main-top > .greeting {
-    grid-row: 2;
-    grid-column: 1/2;
-    font-family: 'DM Serif Display', serif;
-    margin-left: 15px;
-}
 .main-top button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
@@ -100,6 +95,11 @@
     width: 80px;
     height: 40px;
     cursor: pointer;
+    transition: background-color 300ms ease-out 100ms;
+}
+.buttonbox :hover {
+    background-color: black;
+    color: white;
 }
 .main-top .searchbar {
     grid-row: 1;
@@ -127,6 +127,35 @@
     grid-column: 8/9;
     justify-content: center;
     align-items: center;
+}
+.whoami > .photo {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.whoami > .noti {
+    width: 25px;
+    margin-right: 10px;
+}
+
+/* Top Panel > Greeting Section */
+.main-top > .greeting {
+    grid-row: 2;
+    grid-column: 1/2;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 15px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 80px 1fr;
+}
+.greeting img {
+    grid-row: 1;
+    grid-column: 1;
+    width: 60px;
+    border-radius: 50%;
+}
+.greeting > .welcome {
+    grid-column: 2;
 }
 
 /* Bottom Panel */
