@@ -295,6 +295,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: medium;
+    background-color: #C7CEEA;
+}
+/* Divider for trending elements. */
+.site01, .site02, .site03, .site04 {
+    border-bottom: 2px solid black;
 }
 /* Trending Grid Positioning */
 .site01 {
