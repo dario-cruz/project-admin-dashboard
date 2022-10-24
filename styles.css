@@ -276,6 +276,10 @@
     grid-template-columns: 40% 60%;
     grid-template-rows: repeat(5, 1fr);
 }
+.trending .card img {
+    height: 80px;
+    width: 80px;
+}
 .trending .title {
     color: black;
     font-family: 'DM Serif Display', serif;
