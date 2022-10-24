@@ -338,22 +338,22 @@
     30%,
     50%,
     70% {
-      -webkit-transform: translateX(-10px);
-              transform: translateX(-10px);
+      -webkit-transform: translateX(-5px);
+              transform: translateX(-5px);
     }
     20%,
     40%,
     60% {
-      -webkit-transform: translateX(10px);
-              transform: translateX(10px);
+      -webkit-transform: translateX(5px);
+              transform: translateX(5px);
     }
     80% {
-      -webkit-transform: translateX(8px);
-              transform: translateX(8px);
+      -webkit-transform: translateX(4px);
+              transform: translateX(4px);
     }
     90% {
-      -webkit-transform: translateX(-8px);
-              transform: translateX(-8px);
+      -webkit-transform: translateX(-4px);
+              transform: translateX(-4px);
     }
   }
   @keyframes shake-horizontal {
@@ -366,22 +366,22 @@
     30%,
     50%,
     70% {
-      -webkit-transform: translateX(-10px);
-              transform: translateX(-10px);
+      -webkit-transform: translateX(-5px);
+              transform: translateX(-5px);
     }
     20%,
     40%,
     60% {
-      -webkit-transform: translateX(10px);
-              transform: translateX(10px);
+      -webkit-transform: translateX(5px);
+              transform: translateX(5px);
     }
     80% {
-      -webkit-transform: translateX(8px);
-              transform: translateX(8px);
+      -webkit-transform: translateX(4px);
+              transform: translateX(4px);
     }
     90% {
-      -webkit-transform: translateX(-8px);
-              transform: translateX(-8px);
+      -webkit-transform: translateX(-4px);
+              transform: translateX(-4px);
     }
   }
   
