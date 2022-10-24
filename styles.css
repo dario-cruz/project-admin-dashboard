@@ -272,13 +272,14 @@
 .trending .card {
     background-color: white;
     border: 2px solid black;
-    /* border-radius: 10px; */
-    /* box-shadow: 5px 5px 5px rgb(24, 22, 22); */
-    
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: repeat(5, 1fr);
 }
-.trending p {
+.trending .title {
     color: black;
     font-family: 'DM Serif Display', serif;
     font-size: larger;
     font-weight: 800;
 }
+
