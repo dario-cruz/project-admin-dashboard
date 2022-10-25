@@ -405,28 +405,28 @@ a:hover {
 /* Animation for card elements. */
  @-webkit-keyframes shadow-pop-br {
     0% {
-      -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-box-shadow: 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black;
+              box-shadow: 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black;
       -webkit-transform: translateX(0) translateY(0);
               transform: translateX(0) translateY(0);
     }
     100% {
-      -webkit-box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
-              box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
+      -webkit-box-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black;
+              box-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black;
       -webkit-transform: translateX(-8px) translateY(-8px);
               transform: translateX(-8px) translateY(-8px);
     }
   }
   @keyframes shadow-pop-br {
     0% {
-      -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-box-shadow: 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black;
+              box-shadow: 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 black;
       -webkit-transform: translateX(0) translateY(0);
               transform: translateX(0) translateY(0);
     }
     100% {
-      -webkit-box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
-              box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
+      -webkit-box-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black;
+              box-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black;
       -webkit-transform: translateX(-8px) translateY(-8px);
               transform: translateX(-8px) translateY(-8px);
     }
@@ -441,6 +441,7 @@ footer {
     background-color: #bae1ff;
     align-items: center;
     justify-content: center;
+    width: 100vw;
     
 }
 footer > a > img {
