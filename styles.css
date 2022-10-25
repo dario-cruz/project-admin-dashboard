@@ -49,14 +49,14 @@ a:hover {
 }
 .panelone {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-family: 'DM Serif Display', serif; */
     font-weight: 600;
     font-size: larger;
     display: grid;
     border-bottom: 2px solid black;
 }
 .paneltwo {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
     font-size: larger;
     display: grid;
     grid-row: 3/4;
